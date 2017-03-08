@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'THK2DJuly8';
+    src: url('th_k2d_july8_bold_italic-webfont.eot');
+    src: url('th_k2d_july8_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('th_k2d_july8_bold_italic-webfont.woff') format('woff'),
+         url('th_k2d_july8_bold_italic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'THK2DJuly8';
+    src: url('th_k2d_july8_bold-webfont.eot');
+    src: url('th_k2d_july8_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('th_k2d_july8_bold-webfont.woff') format('woff'),
+         url('th_k2d_july8_bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'THK2DJuly8';
+    src: url('th_k2d_july8_italic-webfont.eot');
+    src: url('th_k2d_july8_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('th_k2d_july8_italic-webfont.woff') format('woff'),
+         url('th_k2d_july8_italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'THK2DJuly8';
+    src: url('th_k2d_july8-webfont.eot');
+    src: url('th_k2d_july8-webfont.eot?#iefix') format('embedded-opentype'),
+         url('th_k2d_july8-webfont.woff') format('woff'),
+         url('th_k2d_july8-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*font use*/
+*{
+   font-family: 'THK2DJuly8', sans-serif;
+}
+
+
+/*end font================*/
+
+body{
+    margin: 0px;
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*text----------------------------*/
+input[type=text], input[type=password] ,textarea{
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    /*-webkit-transition: 0.5s;*/
+    /*transition: 0.5s;*/
+    border-radius: 4px;
+    outline: none;
+}
+input[type=text]:focus ,input[type=password]:focus {
+    border: 2px solid #2196F3;
+}
+.group-input{
+    width: 30%;
+}
+
+/*button-------------------------*/
+.btn {
+    background-color: #4CAF50; /* Green */
+    /*border-radius: 10px;*/
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn-blue {
+    background-color: #90CAF9;
+    color: #000;
+    /*border: 2px solid #008CBA;*/
+}
+
+.btn-blue:hover {
+    background-color: #304FFE;
+    color: white;
+}
+.btn-red {
+    background-color: #FFCDD2;
+    color: #000;
+    /*border: 2px solid #008CBA;*/
+}
+
+.btn-red:hover {
+    background-color: #F44336;
+    color: white;
+}
+.btn-green {
+    background-color: #B9F6CA;
+    color: #000;
+    /*border: 2px solid #008CBA;*/
+}
+
+.btn-green:hover {
+    background-color: #00E676;
+    color: white;
+}
+
+/*content---------------*/
+.content {
+    margin-bottom: 8%;
+    margin-top: 8%;
+}
+

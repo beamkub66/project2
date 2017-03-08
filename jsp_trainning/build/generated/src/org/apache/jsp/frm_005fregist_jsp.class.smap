@@ -1,0 +1,18 @@
+SMAP
+frm_005fregist_jsp.java
+JSP
+*S JSP
+*F
++ 0 frm_regist.jsp
+frm_regist.jsp
++ 1 menu_admin.jsp
+menu_admin.jsp
++ 2 footer.jsp
+footer.jsp
+*L
+1,16:50
+1#1,35:66
+16#0,27:100
+1#2,17:127
+42#0,2:143
+*E
